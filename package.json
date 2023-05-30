@@ -1,5 +1,5 @@
 {
-    "name": "tailwind-neon",
+    "name": "@kitakode/tailwind-neon",
     "version": "1.0.0",
     "description": "A neonaised user interface based on Tailwind CSS.",
     "author": "KitaKode",
@@ -17,6 +17,10 @@
         "neon"
     ],
     "main": "src/index.js",
+    "files": [
+        "src/index.js",
+        "src/colors/*.js"
+    ],
     "scripts": {
         "test": "node ./src/index.js"
     },
