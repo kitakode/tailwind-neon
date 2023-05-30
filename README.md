@@ -1,2 +1,2 @@
 # tailwind-neon
-A neonaised user interface based on Tailwind CSS 
+A neonaised user interface based on Tailwind CSS.
