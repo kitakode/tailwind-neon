@@ -4,18 +4,20 @@ on:
   push:
     branches: [ "develop" ]
     paths:
-      - 'src/index.js'
-      - 'src/colors/**.js'
+      - '**.js'
       - 'package.*'
       - '.github/workflows/nodejs.yml'
+    paths-ignore:
+      - 'src/_userguide'
 
   pull_request:
     branches: [ "develop" ]
     paths:
-      - 'src/index.js'
-      - 'src/colors/**.js'
+      - '**.js'
       - 'package.*'
       - '.github/workflows/nodejs.yml'
+    paths-ignore:
+      - 'src/_userguide'
 
 jobs:
   main:
