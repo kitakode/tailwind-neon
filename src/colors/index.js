@@ -7,4 +7,4 @@ let _colors = {
 };
 
 /** @type {import('tailwindcss').Config} */
-module.exports = _colors
+module.exports = _colors;
