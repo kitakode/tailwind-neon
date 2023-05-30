@@ -22,6 +22,7 @@
         "src/colors/*.js"
     ],
     "scripts": {
+        "dev": "cd src/_userguide && npm run userguide:dev",
         "test": "node ./src/index.js"
     },
     "dependencies": {
