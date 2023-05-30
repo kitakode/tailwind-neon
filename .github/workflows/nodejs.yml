@@ -17,7 +17,7 @@ on:
 
 jobs:
   main:
-    name: Node.js ${{ matrix.node-version }} Continuous Integration
+    name: Node.js ${{ matrix.node-version }} CI
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
     strategy:
