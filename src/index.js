@@ -9,4 +9,4 @@ const TailwindNeon = ({
 };
 
 /** @type {import('tailwindcss').Config} */
-module.export = plugin(TailwindNeon);
+module.exports = plugin(TailwindNeon);
