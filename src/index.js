@@ -1,2 +1,12 @@
-// init
-const plugin = require('tailwindcss/plugin');
+// tailwind - plugin
+const plugin = require("tailwindcss/plugin");
+
+// tailwind - neon
+const TailwindNeon = ({
+
+}) => {
+
+};
+
+/** @type {import('tailwindcss').Config} */
+module.export = plugin(TailwindNeon);
