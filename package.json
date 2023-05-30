@@ -17,6 +17,10 @@
         "neon"
     ],
     "main": "src/index.js",
+    "files": [
+        "src/index.js",
+        "src/colors/*.js"
+    ],
     "scripts": {
         "test": "node ./src/index.js"
     },
