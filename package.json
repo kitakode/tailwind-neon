@@ -27,5 +27,8 @@
     },
     "dependencies": {
         "tailwindcss": "3.*"
+    },
+    "engines": {
+        "node": ">=14.0.0"
     }
 }
