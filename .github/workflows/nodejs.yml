@@ -4,6 +4,7 @@ on:
   push:
     branches: [ "develop" ]
     paths:
+      - '!src/_userguide/**'
       - '**.js'
       - 'package.*'
       - '.github/workflows/nodejs.yml'
@@ -11,6 +12,7 @@ on:
   pull_request:
     branches: [ "develop" ]
     paths:
+      - '!src/_userguide/**'
       - '**.js'
       - 'package.*'
       - '.github/workflows/nodejs.yml'
