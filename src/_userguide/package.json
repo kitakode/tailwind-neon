@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "userguide:dev": "",
-        "userguide:build": ""
+        "userguide:dev": "coming soon!",
+        "userguide:build": "coming soon!"
     }
 }
