@@ -1,1 +1,2 @@
-// Hello World!
+// init
+const plugin = require('tailwindcss/plugin');
