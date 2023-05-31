@@ -23,6 +23,7 @@
     ],
     "scripts": {
         "dev": "cd src/_userguide && npm run userguide:dev",
+        "build": "cd src/_userguide && npm run userguide:build",
         "test": "node ./src/index.js"
     },
     "dependencies": {
