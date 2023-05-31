@@ -1,7 +1,8 @@
 // tailwind - plugin
 const plugin = require("tailwindcss/plugin");
 
-// module - colors
+// module - schema & colors
+const _schema = require("./colors/schema");
 const _colors = require("./colors/index");
 
 // tailwind - neon
@@ -17,6 +18,7 @@ module.exports = plugin(TailwindNeon, {
         extend: {
             colors: {
                 ..._colors,
+                ..._schema,
             },
         },
     },
