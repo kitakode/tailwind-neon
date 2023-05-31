@@ -1,4 +1,4 @@
-name: Publish package
+name: Publish
 
 on:
   push:
@@ -7,16 +7,21 @@ on:
 
 jobs:
   build:
+    name: Publish package
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js 14
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - run: |
+
+      - name: Begin to publish
+        run: |
           npm config set scope kitakode
           npm publish --access public
         env:
