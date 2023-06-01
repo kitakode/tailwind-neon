@@ -28,8 +28,8 @@ let _colors = {
 };
 
 Object.keys(colors).forEach(name => {
+    // skip non optionable colors & the deprecated version
     if (typeof colors[name][500] != undefined && [
-        // deprecated
         'lightBlue',
         'warmGray',
         'trueGray',
